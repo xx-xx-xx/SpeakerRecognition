@@ -1,7 +1,5 @@
 # 基于多模态融合的声纹认证防伪技术研究
 
-# Anti-spoofing Techniques for Voiceprint Authentication based on Multi-modal Sensing Fusion
-
 本工作关注于重放攻击样本和真实样本之间的根本差别，结合了传统的ECAPA-TDNN声纹识别模型和基于LSTM的活体检测系统，还对原始样本进行了数据扩充，通过多个模态共同判断说话人是否能够通过认证。在不同场景对该声纹认证防伪系统进行实际测试，取得了总的系统准确率为92.28%的较好效果。
 
 This thesis focuses on the fundamental differences between the replayed audio samples and the genuine audio samples, conbines the traditional speaker classification system based on ECAPA-TDNN with a liveness detection system based on LSTM, and conducts data augmentation of original samples. The system determines whether the speaker can be authenticated synthetically through multiple feature integration. To verify the effectiveness of the system designed in this thesis, the anti-spoofing voiceprint authentication system was tested in different evaluation scenarios by various evaluation indicators, which achieved satisfactory results of overall accuracy 92.28% and ensured great user experience and security performance.
@@ -213,10 +211,6 @@ FAR和FRR
   - 多风格训练
   - 时频谱增强
 - 抵御语音合成等其他攻击形式
-
-## layout
-
-
 
 ## reference
 
