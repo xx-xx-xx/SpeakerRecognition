@@ -71,19 +71,13 @@ This thesis focuses on the fundamental differences between the replayed audio sa
 #### 损失函数
 
 - 说话人分类任务
-  $$
-  \mathrm{loss1} = NLLLoss()
-  $$
+  $$\mathrm{loss1} = NLLLoss()$$
 
 - 相关性检测任务
-  $$
-  \mathrm{loss2} = MSELoss()
-  $$
+  $$\mathrm{loss2} = MSELoss()$$
 
 - 总
-  $$
-  \mathrm{loss} = \frac{1}{\mathrm{epoch^2}}\cdot \mathrm{loss1}+(1-\frac{1}{\mathrm{epoch^2}})\cdot \mathrm{loss2}
-  $$
+  $$\mathrm{loss} = \frac{1}{\mathrm{epoch^2}}\cdot \mathrm{loss1}+(1-\frac{1}{\mathrm{epoch^2}})\cdot \mathrm{loss2}$$
 
 ## 测试与分析
 
